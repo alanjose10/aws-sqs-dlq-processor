@@ -46,7 +46,9 @@ Fetching 10 messages from DLQ https://sqs.us-east-1.amazonaws.com/123456789012/M
 
 No more messages to process.
 Total messages sent: 10
+```
 
+```bash
 dlq-processor --queue-url https://sqs.us-east-1.amazonaws.com/123456789012/MyQueue --n 5
 
 Fetching 5 messages from DLQ https://sqs.us-east-1.amazonaws.com/123456789012/MyQueue-dlq...
@@ -62,7 +64,9 @@ Send messages to main queue? (yes/no): no
 
 Stopping processing.
 Total messages sent: 0
+```
 
+```bash
 dlq-processor --queue-url https://sqs.us-east-1.amazonaws.com/123456789012/MyQueue --n 3
 
 Fetching 3 messages from DLQ https://sqs.us-east-1.amazonaws.com/123456789012/MyQueue-dlq...
